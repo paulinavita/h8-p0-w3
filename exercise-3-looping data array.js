@@ -3,9 +3,9 @@ function indexing(input) {
 result = []
 for (i= 0; i < input.length; i++) { 
     isi = [
-   'Nomor ID: ' + arrData[i][1], 
-   'Nama Lengkap: ' + arrData[i][2],
-   'TTL: ' + arrData[i][3] + ' ' + arrData[i][3],
+   'Nomor ID: ' + arrData[i][0], 
+   'Nama Lengkap: ' + arrData[i][1],
+   'TTL: ' + arrData[i][2] + ' ' + arrData[i][3],
    'Hobi: ' + arrData[i][4]]
    result.push(isi)
 }
@@ -13,7 +13,7 @@ for (i= 0; i < input.length; i++) {
 }
 
 
-var arrData = 
+var arrData =
 [
     ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
     ["0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar"],
