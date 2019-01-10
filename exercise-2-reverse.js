@@ -2,6 +2,7 @@
 //Buatlah sebuah fungsi dengan nama balikString.
 //Fungsi ini akan menerima argumen sebuah string dan mengembalikan kebalikannya.
 
+
 function balikString(str) {
     var res = ''
     for (i = str.length - 1; i>=0  ;i--) {
@@ -10,6 +11,8 @@ function balikString(str) {
   return res
 }
 
+var str = "hello world"
+console.log(balikString(str))
 
 
 // Example

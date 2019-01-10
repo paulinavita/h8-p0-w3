@@ -14,8 +14,9 @@ function groupAnimals(animals) {
         if (temp.length > 0) {
         arrTotal.push(temp)
         }
+        return arrTotal
     }
-    return arrTotal
+   
 }
   
   // TEST CASES

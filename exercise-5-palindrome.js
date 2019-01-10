@@ -1,15 +1,16 @@
 function palindrome(kata) {
-   for(i = 0; i <= kata.length-1 ;i++) {
-       var hasil = ''
+hasil = ''
+   for(i = kata.length - 1; i >= 0 ;i--) {
        hasil += kata[i]
    }
-   if (hasil = kata) {
-       return true
+   if (hasil == kata) {
+       final = true
    }
-   else {
-       return false
+   else if (hasil !== kata) {
+       final = false
    }
-  }
+   return final
+   }
   
   // TEST CASES
   console.log(palindrome('katak')); // true
