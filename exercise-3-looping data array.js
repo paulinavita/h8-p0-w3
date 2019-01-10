@@ -1,3 +1,17 @@
+function indexing(input) {
+
+result = []
+for (i= 0; i < input.length; i++) { 
+    isi = [
+   'Nomor ID: ' + arrData[i][1], 
+   'Nama Lengkap: ' + arrData[i][2],
+   'TTL: ' + arrData[i][3] + ' ' + arrData[i][3],
+   'Hobi: ' + arrData[i][4]]
+   result.push(isi)
+}
+ return result
+}
+
 
 var arrData = 
 [
@@ -7,11 +21,4 @@ var arrData =
     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
 ]
 
-
-for (i= 0; i < 4; i++) { 
-
-    console.log('Nomor ID: ' + arrData[i][1])
-    console.log('Nama Lengkap: ' + arrData[i][2])
-    console.log ('TTL: ' + arrData[i][3] + ' ' + arrData[i][3])
-    console.log ('Hobi: ' + arrData[i][4])
-  }
+console.log(indexing(arrData))
